@@ -1,5 +1,5 @@
 //nhập vào độ dài của cạnh hình lập phương a(so thuc).Tính diện tích xung quanh, diện tích toàn phần, thể tích
-#include <iostream>
+#include "include.cpp"
 using namespace std;
 int main()
 {
