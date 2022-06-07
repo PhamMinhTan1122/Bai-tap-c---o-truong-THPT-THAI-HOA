@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    float a;
+    float a; //co the doi kieu du lieu float
     printf("Nhap do dai canh a: \n");
     cin >> a;
     printf("Dien tich xung quanh la: %.2f\n", 4*(a*a));

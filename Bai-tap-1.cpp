@@ -2,7 +2,7 @@
 #include "include.cpp"
 int main()
 {
-    short a,b; //a la chieu dai b la chieu rong
+    short a,b; //a la chieu dai b la chieu rong (co the doi kieu du lieu "short")
     printf("Nhap chieu dai: \n");
     cin >> a;
     printf("Nhap chieu rong: \n");
