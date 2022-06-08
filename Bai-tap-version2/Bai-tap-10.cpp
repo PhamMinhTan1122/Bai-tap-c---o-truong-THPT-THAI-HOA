@@ -1,5 +1,5 @@
 //Nhập vào 3 cạnh của một hình khối hộp chữ nhật và 2 cạnh của một khung hình chữ nhật rỗng.Hãy xét xem hình khối hộp chữ nhật có thể chui qua khung chữ nhật rỗng được hay không?
-#include "C:\Users\Admin\Desktop\Bai-tap-c---o-truong\include.cpp"
+#include "./include.cpp"
 int main()
 {
     // canh hinh hop chu nhat
