@@ -10,11 +10,7 @@ int main()
     printf("Nhap canh c:\n");
     cin >> c;
     if (a == b || b == c || c== a)
-    {
         printf("Day la tam giac can:\n");
-    }
     else
-    {
         printf("Day ko phai la tam giac can\n");
-    } 
 }
