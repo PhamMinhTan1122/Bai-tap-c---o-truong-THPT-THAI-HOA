@@ -1,5 +1,5 @@
 //Viết chương trình nhập vào x (giây). In ra màn hình bao nhiêu giờ, bao nhiêu phút, bao nhiêu giây
-#include "include.cpp"
+#include "../include.cpp"
 int main()
 {
     int x;

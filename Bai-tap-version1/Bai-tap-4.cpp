@@ -1,5 +1,5 @@
 //tính chu vi, diện tích hình vuông có cạnh a (được nhập từ bàn phím).
-#include "include.cpp"
+#include "../include.cpp"
 int main()
 {
     short canh_a; //co the doi kieu du lieu "short"
