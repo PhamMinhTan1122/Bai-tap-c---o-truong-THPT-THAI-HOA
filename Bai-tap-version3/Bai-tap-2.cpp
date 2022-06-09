@@ -1,11 +1,20 @@
+//Nhập vào một kí tự rồi cho biết đó là chữ, số hay phép tính
 #include "../include.cpp"
 int main()
 {
-    string i;
+    char i;
     cin >> i;
-    string to_string(int i);
-    if (i == 0123456789)
+    switch (i)
     {
-        cout << "day la so";
+    case   'a'  'z' || i:
+        printf("day la chu");
+        /* code */
+        break;
+    
+    default:
+        break;
     }
+
+
+
 }
