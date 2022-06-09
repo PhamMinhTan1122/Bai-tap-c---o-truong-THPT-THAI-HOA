@@ -2,11 +2,12 @@
 #include "../include.cpp"
 int main()
 {
-    char i;
+    unsigned char i;
+    char chu[66] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
     cin >> i;
     switch (i)
     {
-    case   'a'  'z' || i:
+    case (int)i == (int)chu:
         printf("day la chu");
         /* code */
         break;
