@@ -1,4 +1,4 @@
-#include "C:\Users\Admin\Desktop\Bai-tap-c---o-truong\include.cpp"
+#include "../include.cpp"
 int main()
 {
     float diem_tb;

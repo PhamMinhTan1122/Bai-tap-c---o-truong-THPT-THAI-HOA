@@ -1,5 +1,5 @@
 //tính chu vi và diện tích của hình chữ nhật 
-#include "include.cpp"
+#include "../include.cpp"
 int main()
 {
     short a,b; //a la chieu dai b la chieu rong (co the doi kieu du lieu "short")

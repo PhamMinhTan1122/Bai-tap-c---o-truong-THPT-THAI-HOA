@@ -1,5 +1,5 @@
 //tim so nhat trong 2 So
-#include "C:\Users\Admin\Desktop\Bai-tap-c---o-truong\include.cpp"
+#include "../include.cpp"
 using namespace std;
 int main()
 {

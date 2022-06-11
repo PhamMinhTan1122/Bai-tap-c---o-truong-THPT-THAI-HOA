@@ -1,5 +1,5 @@
 // tính trung bình nhân của bốn số với điều kiện chỉ được sử dụng hai biến.
-#include "include.cpp"
+#include "../include.cpp"
 int main()
 {
     float a, tong_trung_nhan = 1.0;

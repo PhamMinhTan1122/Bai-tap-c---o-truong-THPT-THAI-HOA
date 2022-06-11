@@ -1,4 +1,4 @@
-#include "include.cpp"
+#include "../include.cpp"
 int main()
 {
     float a,tong_trung_cong=0;

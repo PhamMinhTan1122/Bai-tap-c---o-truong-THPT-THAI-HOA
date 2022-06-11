@@ -1,6 +1,6 @@
 //tính diện tích của tam giác có ba cạnh là a,b,c (được nhập từ bàn phím)
 
-#include "include.cpp"
+#include "../include.cpp"
 int main()
 {
     short a,b,c,p; // a,b,c la canh cua tam giac (co the doi kieu du lieu "short")

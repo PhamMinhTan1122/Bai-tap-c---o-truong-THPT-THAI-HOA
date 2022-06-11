@@ -1,5 +1,5 @@
 //Viết chương trình cho biết chữ số hàng trăm, hàng chục, hàng đơn vị của một số có ba chữ số. Ví dụ khi nhập số 357 thì máy in ra:
-#include "include.cpp"
+#include "../include.cpp"
 int main()
 {
     int a;

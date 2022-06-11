@@ -1,5 +1,5 @@
 // tính trung bình cộng của bốn số.
-#include "include.cpp"
+#include "../include.cpp"
 int main()
 {
     float a,b,c,d; //co the doi kieu du lieu "short"

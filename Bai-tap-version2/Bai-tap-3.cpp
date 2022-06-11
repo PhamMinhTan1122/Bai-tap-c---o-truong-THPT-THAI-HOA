@@ -1,5 +1,5 @@
 
-#include "C:\Users\Admin\Desktop\Bai-tap-c---o-truong\include.cpp"
+#include "../include.cpp"
 int main()
 {
     // in ra số lớn nhất trong bốn số nhập từ bàn phím bang 2 bien

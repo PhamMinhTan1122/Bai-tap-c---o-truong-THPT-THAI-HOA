@@ -1,5 +1,5 @@
 //Viết chương trình cho phép tính trung bình cộng của bốn số với điều kiện chỉ được sử dụng hai biến(Tức không được dùng thêm biến tạm)
-#include "include.cpp"
+#include "../include.cpp"
 int main()
 {
     float a,b;
