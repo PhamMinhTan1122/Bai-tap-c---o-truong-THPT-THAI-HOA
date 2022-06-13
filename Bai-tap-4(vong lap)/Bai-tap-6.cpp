@@ -8,7 +8,6 @@ int main()
     for (int i = 1; i <= InPut; i++)
     {
         sum = sum*i;
-        cout << i << endl;
     }
-    printf("Thuong tat ca cac so nho hon %d la:%d\n", InPut, sum);
+        cout << sum << endl;
 }

@@ -5,8 +5,8 @@ int main()
     int InPut;
     cout << "Moi ban nhap so ban ko thich\n";
     cin >> InPut;
-    cout << "So le nho hon hoac bang";
-    for (int i; i <= InPut; i ++)
+    cout << "So le nho hon hoac bang\n";
+    for (int i =1; i <= InPut; i ++)
     {
         if (i % 2 != 0)
         {

@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
-    <ProjectGuid>{5CF61286-3089-49C4-BBB1-F68675217344}</ProjectGuid>
+    <ProjectGuid>{E16E8534-5D3C-4AAE-8051-4AB10EEEC3E2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -98,7 +98,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="bai-tap-4(vong lap)\Bai-tap-8.cpp" />
+    <ClCompile Include="bai-tap-4(vong lap)\Bai-tap-10.cpp" />
     <ClCompile Include="include.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

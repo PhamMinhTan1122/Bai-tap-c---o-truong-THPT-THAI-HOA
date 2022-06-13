@@ -18,7 +18,7 @@
     <ClCompile Include="include.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bai-tap-4(vong lap)\Bai-tap-8.cpp">
+    <ClCompile Include="bai-tap-4(vong lap)\Bai-tap-10.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -23,7 +23,6 @@ int main()
         {
             if (InPut % i == 0)
                 result = false;
-
         }
         if (result == true)
         {

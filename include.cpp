@@ -2,7 +2,8 @@
 #include <math.h>
 #include <string>
 #include <iomanip>
-
+#include <conio.h>
+#include <stdio.h>
 
 
 //dinh nghia hang so
