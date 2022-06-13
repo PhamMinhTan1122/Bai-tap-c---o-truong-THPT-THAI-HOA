@@ -2,16 +2,8 @@
 #include "../include.cpp"//include các thư viện cần thiết
 int main()
 {
-    for (int i = 0; i <= 128; i++)// Kiểm tra kí tự có nằm trong khoảng từ “
+    for(char i = 'A'; i <= 'z'; i++)
     {
-        if (i >= 65 && i <= 90) // Kiểm tra kí tự có nằm trong khoảng từ “A” đến “Z”
-        {
-            printf("%d%5c\n", i, i); //%d in ra ki tu so, %5c in ra khoang trong
-        }
-        else if (i >= 97 && i <= 122) // Kiểm tra kí tự có nằm trong khoảng từ “a” đến “z”
-        {
-            printf("%d%5c\n", i, i); //%d in ra ki tu so, %5c in ra khoang trong
-        }
-        
+        printf("%d\t %c\n",(int)i,i);
     }
 }

@@ -2,28 +2,24 @@
 #include "../include.cpp"
 int main()
 {
-	int InPut, temp = 0, sum = 1, j = 1;
+	int InPut, temp = 0, sum = 1;
 	cout << "Moi ban nhap so ban ko thich\n";
 	cin >> InPut;
 	// xu li
-	int bound = (int)sqrt(InPut);
-	for (int i = 1; i < bound; i++)
+	for (int i = 1; i < InPut; i++)
 	{
-		if (InPut % i == 0)
+		sum = 0;
+		for (int j = 1; j < i; j++)
 		{
-			if (InPut / i == i)
+			if (i % j == 0)
 			{
-				sum += i;
-			}
-			else
-			{
-				sum += i;
-				sum += InPut / i;
+				sum += j;
 			}
 		}
-		if (sum == InPut)
+		if (sum == i)
 		{
 			cout << i << " ";
 		}
 	}
 }
+

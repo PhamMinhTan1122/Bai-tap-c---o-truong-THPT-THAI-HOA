@@ -2,17 +2,17 @@
 #include "../include.cpp"
 int main()
 {
-    int so_nguyen;
+    int so_nguyen, InPut,max = 0;
     cout << "Moi ban nhap so nguyen ban ko thich\n";
     cin >> so_nguyen;
-    int max = 0;
-    for(int i = 0; i <= so_nguyen; i++)
+    for (int i = 0; i < so_nguyen; i++)
     {
-        if (i > max)
+        printf("Nhap so thu %d\t", i + 1);
+        cin >> InPut;
+        if (max < InPut)
         {
-            max = i;
+            max = InPut;
         }
     }
-    cout << "Gia tri cuc dai cua so nguyen ban ko thich la: " << max << endl;
-    
+    printf("Max = %d",max);
 }
