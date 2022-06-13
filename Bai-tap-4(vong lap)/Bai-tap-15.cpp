@@ -5,21 +5,12 @@ int main()
     char bin;
     cout << "Moi ban nhap so ban ko thich\n";
     cin >> InPut;
-    result = InPut;
-    while (result >= 0)
+    // result = InPut;
+    while (InPut >= 0)
     {
-        if (result % 2 == 0)
-        {
-            bin = '0';
-        }
-        else 
-        {
-            bin = '1';
-        }
-        result = result/2;
-        bin = bin *10;
+        bin = InPut%2;
+        InPut = InPut/2;
         cout << bin;
-        return result;
     }
     cout << bin << endl;
 }
