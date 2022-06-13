@@ -1,20 +1,18 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include "../include.cpp"
 int main()
 {
-    int TrauDung = 1, TrauGia = 1, TrauNam = 1, count = 1;
-    for (TrauDung = 1; TrauDung * 5 <= 100; TrauDung++)
+    int InPut, InPut_ss, max = 0, count = 1;
+    cout << "Nhap gioi han cau so N" << endl;
+    cin >> InPut;
+    while (InPut >= count)
     {
-        for (TrauGia = 1; TrauGia * 3 <= 100; TrauGia++)
+        printf("Nhap so thu %d\n", count);
+        cin >> InPut_ss;
+        if (InPut_ss > max)
         {
-            for (TrauNam = 1; TrauNam <= 100; TrauNam++)
-            {
-                if ((TrauDung * 5 + TrauNam * 3 + TrauGia / 3 == 100) && (TrauDung + TrauGia + TrauNam == 100))
-                {
-                    printf("Trau Dung: %d\t Trau Nam: %d\t Trau Gia:%d\t\n", TrauDung, TrauNam, TrauGia);
-                }
-            }
+            max = InPut_ss;
         }
+        count++;
     }
-
+    printf("Max = %d", max);
 }
