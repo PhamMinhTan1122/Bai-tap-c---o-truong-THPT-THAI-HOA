@@ -1,2 +1,4 @@
 *.exe
+x64/**
+**/*.cpp
 tempCodeRunnerFile.cpp
