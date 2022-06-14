@@ -1,25 +1,23 @@
 #include "../include.cpp"
 int main()
 {
+    
     int InPut, a;
-    printf("Nhap so nguyen to: ");
+    printf("Nhap so: ");
     cin >> InPut;
     int i = 2;
-    bool result;
-    int c = (int)sqrt(InPut);
-    cout << c<<endl;
+    bool result = true;
     if (InPut == 1)
     {
-        printf("%d khong phai so nguyen to\n", InPut);
+        result = false;
     }
     else if (InPut < 4)
     {
-        printf("%d la so nguyen to\n", InPut);
+        result = true;
     }
-    else if (i < c)
-    { 
-        result=true;
-        for (i = 2; i <= c; i++)
+    else if (i < InPut)
+    {
+        for (i = 2; i <= sqrt(InPut); i++)
         {
             if (InPut % i == 0)
                 result = false;
@@ -33,5 +31,4 @@ int main()
             printf("%d khong phai so nguyen to\n", InPut);
         }
     }
-    
 }
