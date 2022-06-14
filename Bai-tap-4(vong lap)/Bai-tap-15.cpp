@@ -2,7 +2,6 @@
 int main()
 {
     int a[10], n, i;
-
     printf("Nhap mot so bat ky: ");
     scanf("%d", &n);
     for (i = 0; n > 0; i++)
