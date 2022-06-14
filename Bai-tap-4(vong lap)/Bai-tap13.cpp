@@ -19,6 +19,7 @@ int main()
     else if (i < c)
     { 
         result=true;
+        result = false;
         for (i = 2; i <= c; i++)
         {
             if (InPut % i == 0)

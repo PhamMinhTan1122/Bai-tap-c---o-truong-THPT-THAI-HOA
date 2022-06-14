@@ -1,4 +1,7 @@
 *.exe
 x64/**
 !**/*.cpp
+.gitignore
+*.md
+.gitignore
 tempCodeRunnerFile.cpp
