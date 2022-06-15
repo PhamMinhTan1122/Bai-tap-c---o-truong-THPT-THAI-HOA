@@ -1,17 +1,20 @@
 #include "../include.cpp"
 int main()
 {
-    int a[10], n, i;
-    printf("Nhap mot so bat ky: ");
-    scanf("%d", &n);
-    for (i = 0; n > 0; i++)
+    long long InPut, sum = 0, so_mu = 1;
+    cout << "Moi ban nhap so ban ko thich\n";
+    cin >> InPut;
+/*     while (InPut > 0)
     {
-        a[i] = n % 2;
-        n = n / 2;
-    }
-    printf("\nDang nhi phan cua so vua nhap la = ");
-    for (i = i - 1; i >= 0; i--)
+        sum += (InPut % 2) * so_mu;
+        InPut /= 2;
+        so_mu *= 10;
+    } */
+    for (; InPut > 0;)
     {
-        printf("%d", a[i]);
+        sum += (InPut % 2) * so_mu;
+        InPut /= 2;
+        so_mu *= 10;
     }
+    cout << sum << endl;
 }

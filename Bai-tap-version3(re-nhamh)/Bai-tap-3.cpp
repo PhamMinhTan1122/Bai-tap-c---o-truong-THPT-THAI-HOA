@@ -7,7 +7,7 @@ int main()
     cin >> nam;
     cout << "Nhap thang: \n";
     cin >> thang;
-    if (nam % 4 == 0)
+    if (nam % 400 == 0 || (nam % 4 == 0)&& (nam % 100 != 0 ))
     {
         ngay = 366;
         printf("Nam %d co 366 ngay\n", nam);
@@ -38,7 +38,7 @@ int main()
             printf("Thang %d co 30 ngay\n", thang);
             break;
         case 2 :
-            printf("Thang %d co 29 ngay\n", thang);
+            printf("Thang %d co 28 ngay\n", thang);
             break;
         default:
             break;

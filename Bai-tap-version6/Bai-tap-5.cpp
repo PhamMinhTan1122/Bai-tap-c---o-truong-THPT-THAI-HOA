@@ -2,15 +2,17 @@
 int main()
 {
     float result, Cash;
-    float Count = 1, Month_InPut;
-    cout << "Nhap so tien muon rut:";
+    float Count = 0, Cash_1;
+    cout << "Nhap so tien gui vao ngan hang:";
     cin >> Cash;
-    cout << "Nhap thang can rut tien: ";
-    cin >> Month_InPut;
-    while (Month_InPut >= Count)
+    cout << "Nhap so tien can rut tien: ";
+    cin >> Cash_1;
+    while (Cash_1 >= Cash)
     {
-        result = Cash * pow((1 + 0.3), Count);
-        printf("So tien %.f sao %.f thang la %.f\n ", Cash, Month_InPut, result);
+        result = Cash * 0.3 / 100;
+
+        // printf("So tien %.f sao %.f thang la %.f\n ", Cash, Count, result);
         Count++;
     }
+    cout << "So tien " << Cash << " sau " << Count << " thang la " << Cash_1 << endl;
 }

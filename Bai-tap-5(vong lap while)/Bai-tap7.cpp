@@ -1,18 +1,16 @@
 #include "../include.cpp"
 int main()
 {
-    int InPut, InPut_ss, max = 0, count = 1;
-    cout << "Nhap gioi han cau so N" << endl;
+    int InPut, sum = 0, result;
+    char bin;
+    cout << "Moi ban nhap so ban ko thich\n";
     cin >> InPut;
-    while (InPut >= count)
+    result = InPut;
+    while (InPut >= 0)
     {
-        printf("Nhap so thu %d\n", count);
-        cin >> InPut_ss;
-        if (InPut_ss > max)
-        {
-            max = InPut_ss;
-        }
-        count++;
+        bin = InPut%2;
+        InPut = InPut/2;
+        cout << bin;
     }
-    printf("Max = %d", max);
+    cout << bin << endl;
 }

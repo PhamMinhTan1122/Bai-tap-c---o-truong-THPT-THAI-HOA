@@ -2,36 +2,27 @@
 using namespace std;
 int main()
 {
-    int TrauDung = 1, TrauGia = 1, TrauNam = 1;
-    /*     while (TrauDung <= 100)
-        {
-            while (TrauNam <= 100)
-            {
-                while (TrauGia <= 100)
-                {
-                    if ((TrauDung * 5 + TrauNam * 3 + TrauGia / 3 == 100) && (TrauGia % 3 == 0) && (TrauDung + TrauGia + TrauNam == 100))
-                    {
-                        printf("Trau Dung: %d\t Trau Nam: %d\t Trau Gia:%d\t\n", TrauDung, TrauNam, TrauGia);
-                    }
-                    TrauGia++;
-                }
-                TrauNam++;
-            }
-            TrauDung++;
-        } */
-    do
+    int TrauDung = 1, TrauNam, TrauGia;
+    while (TrauDung * 5 <= 100)
     {
-        do
-        {
-            do
-            {
-                if ((TrauDung * 5 + TrauNam * 3 + TrauGia / 3 == 100) && (TrauGia % 3 == 0) && (TrauDung + TrauGia + TrauNam == 100))
-                    printf("Trau Dung: %d\t Trau Nam: %d\t Trau Gia:%d\t\n", TrauDung, TrauNam, TrauGia);
-                TrauGia++;
-            } while (TrauGia <= 100);
-
-            TrauNam++;
-        } while (TrauNam <= 100);
         TrauDung++;
-    } while (TrauDung <= 102);
+        TrauNam = 1;
+        while (TrauNam * 3 <= 100)
+        {
+            TrauNam++;
+            TrauGia = 1;
+            while (TrauGia / 3 <= 100)
+            {
+                TrauGia++;
+                if ((TrauDung + TrauGia + TrauNam == 100) && (TrauDung * 5 + TrauNam * 3 + TrauGia / 3== 100))
+                {
+                    printf("Trau Dung: %d\t Trau Nam: %d\t Trau Gia:%d\t\n", TrauDung, TrauNam, TrauGia,);
+                }
+            }
+            /*                 cout << "TrauGia" << TrauGia << endl;
+                            cout << "TrauDung" << TrauDung << endl;
+                            cout << "TrauNam" << TrauNam << endl; */
+        }
+    }
+    return 0;
 }
