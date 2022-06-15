@@ -1,8 +1,9 @@
-#include <bits/stdc++.h>
+#include "../include.cpp"
 using namespace std;
 int main()
 {
     int InPut, count= 1, sum = 0;
+    printf("MOI NHAP SO:\n");
     cin >> InPut;
     while (InPut > count)
     {

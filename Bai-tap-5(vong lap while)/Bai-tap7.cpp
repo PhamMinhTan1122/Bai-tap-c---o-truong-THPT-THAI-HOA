@@ -1,20 +1,16 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include "../include.cpp"
 int main()
 {
-    int TrauDung = 1, TrauGia = 1, TrauNam = 1, count = 1;
-    for (TrauDung = 1; TrauDung * 5 <= 100; TrauDung++)
+    int InPut, sum = 0, result;
+    char bin;
+    cout << "Moi ban nhap so ban ko thich\n";
+    cin >> InPut;
+    result = InPut;
+    while (InPut >= 0)
     {
-        for (TrauGia = 1; TrauGia * 3 <= 100; TrauGia++)
-        {
-            for (TrauNam = 1; TrauNam <= 100; TrauNam++)
-            {
-                if ((TrauDung * 5 + TrauNam * 3 + TrauGia / 3 == 100) && (TrauDung + TrauGia + TrauNam == 100))
-                {
-                    printf("Trau Dung: %d\t Trau Nam: %d\t Trau Gia:%d\t\n", TrauDung, TrauNam, TrauGia);
-                }
-            }
-        }
+        bin = InPut%2;
+        InPut = InPut/2;
+        cout << bin;
     }
-
+    cout << bin << endl;
 }
