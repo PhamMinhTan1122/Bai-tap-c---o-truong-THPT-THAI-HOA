@@ -14,7 +14,7 @@ int main()
         {
             printf("Nhap so thu %d: ",Count);
             cin >> InPut_Loop;
-            Sum += Count;
+            Sum += InPut_Loop;
             Count++;
         }
         printf("Tong tu 1 den %d la %d", InPut, Sum);

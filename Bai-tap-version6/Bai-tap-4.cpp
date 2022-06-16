@@ -16,6 +16,6 @@ int main()
             Tuoi_Con++;
             result++;
         }
-        cout << result;
+        cout << result << endl;
     }
 }
